@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulari 1 d'enregistrament</title>
+    </head>
+    <body>
+        <h1>Formulari bàsic de registre</h1>
+        <form method="GET">
+            <fieldset>
+                <label>Nom</label>
+                <input type="text" name="nom" maxlength="50" size="50">
+                <br>
+                <label>Cognom</label>
+                <input type="text" name="cognom" maxlength="50" size="50">
+                <br>
+                <input type="radio" name="sex1" value="home">Home<br>
+                <input type="radio" name="sex1" value="dona">Dona<br>
+                <br>
+                <label>Correu electrònic</label>
+                <input type="text" name="correu" size="60">
+                <br>
+                <input type="radio" name="info" value="info" checked>Vull rebre informació sobre novetats i ofertes
+                <br>
+                <input type="radio" name="llegit" value="llegit">Declaro haver llegit i acceptar les
+                condicions generals del programa i la normativa sobre protecció de dades indicada
+                al RGPD
+                <br>
+                <label>Població</label> 
+                <select name="poblacio">
+                    <option value="badalona">Badalona</option>
+                    <option value="arbúcies">Arbúcies</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="girona">Girona</option>
+                    <option value="vilassar de mar">Vilassar de mar</option>
+                </select>
+                <br>
+                <label>Descripció</label><br>
+                <textarea cols="70" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>
