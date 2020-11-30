@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulari d'enviament</title>
+    </head>
+    <body>
+        <form method="GET">
+            <font face="verdana" size="2"></font>
+                <table width="100%" bgcolor="#306090" cellspacing="0" cellpadding="6">
+                    <tr>
+                        <th align="left">
+                            <h3><font color="FFFFFF">Enviar missatge</font></h3>
+                        <img src="img/gb_reload_s.gif" align="right" alt="No carrega la imatge">
+                        </th>
+                    </tr>
+                </table>
+                <table width="100%" bgcolor="EFEFEF">
+                    <tr>
+                        <td>
+                            <p>
+                                <label>Nom:</label>
+                                <input type="text" name="nom" maxlength="50" size="50">
+                                <br>
+                                <label>E-Mail:</label>
+                                <input type="text" name="email" maxlength="50" size="50">
+                                <br>
+                                <label>Arxiu:</label>
+                                <input type="file" name="arxiu" size="50">
+                                <br>
+                                <label>Imatge:</label>
+                                <input type="file" name="imatge" size="50">
+                            </p>
+                            <p>
+                                Requereixo resposta:
+                                <input type="radio" name="resposta" value="Sí">Sí
+                                <input type="radio" name="resposta" value="No">No
+                                <br>
+                                <br> <label>Missatge</label> <br>
+                                <textarea name="missatge" rows="5" cols="45">Escriu el teu missatge</textarea><br>
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Borrar">
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </body>
+</html>
